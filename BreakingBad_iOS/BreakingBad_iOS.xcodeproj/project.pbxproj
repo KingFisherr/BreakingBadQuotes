@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C07A8BC28FB7E420067552F /* BreakingBad-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "BreakingBad-iOS-Info.plist"; sourceTree = SOURCE_ROOT; };
 		9C4065E728E3D037003E17C7 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		9C4065E928E3D062003E17C7 /* QuotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewModel.swift; sourceTree = "<group>"; };
 		9C84C6EE28E3CDB900F8EC34 /* BreakingBad_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakingBad_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +56,7 @@
 		9C84C6F028E3CDB900F8EC34 /* BreakingBad_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				9C07A8BC28FB7E420067552F /* BreakingBad-iOS-Info.plist */,
 				9C84C70128E3CE0A00F8EC34 /* ViewControllers */,
 				9C84C70028E3CDD800F8EC34 /* Models */,
 				9C84C6FF28E3CDCC00F8EC34 /* ViewModels */,
@@ -303,6 +305,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BreakingBad_iOS/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BreakingBad-iOS-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -331,6 +334,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BreakingBad_iOS/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BreakingBad-iOS-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -13,3 +13,11 @@ struct Quotes: Codable{
     var quote: String
     var author: String
 }
+
+struct FlightData: Decodable{
+    var data: Data
+}
+
+struct Data: Decodable{
+    var flight_date: String
+}
